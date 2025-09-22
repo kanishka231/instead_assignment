@@ -1,4 +1,4 @@
-# Instead — Technical Test — YOUR NAME
+# Instead — Technical Test — KANISHKA SONKAR
 
 This repo contains the annotation spec, sample annotations, a small demo renderer, and a 5-minute walkthrough script for the Instead technical assessment.
 
