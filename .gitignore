@@ -1,1 +1,10 @@
+node_modules/
+venv/
+.venv/
+.env
+dist/
+*.pyc
+__pycache__/
+rendered_output.pdf
+qa_output.json
 
