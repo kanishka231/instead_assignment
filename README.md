@@ -27,4 +27,6 @@ This repo contains the annotation spec, sample annotations, a small demo rendere
 - [Optional] Use `act` or run the same commands used in `.github/workflows/ci.yml`.
 
 ## Contact
-YOUR NAME — email@example.com
+NAME — kanishka
+Email:kanishkasonkar231@gmail.com
+
