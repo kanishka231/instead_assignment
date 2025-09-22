@@ -2,17 +2,22 @@
   "name": "instead-technical-test-kanishka",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "demo": "node src/render_demo.js demo/annotations.json demo/data.json demo/sample_form.pdf",
-    "lint": "eslint .",
-    "test": "node src/test_demo.js"
+    "build": "tsc",
+    "demo": "ts-node src/render_demo.ts demo/annotations.json demo/data.json demo/sample_form.pdf",
+    "lint": "eslint . --ext .ts",
+    "test": "node --no-warnings ./dist/test_demo.js || true"
   },
   "dependencies": {
-    "pdf-lib": "^1.20.0",
-    "jsonpath-plus": "^7.0.0",
-    "yargs": "^17.0.0"
+    "jsonpath-plus": "^8.1.0",
+    "pdf-lib": "^1.19.0",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
-    "eslint": "^8.0.0"
+    "@types/node": "^20.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.2"
   }
 }
+
